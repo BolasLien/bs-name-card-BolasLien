@@ -9,11 +9,59 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css">
 
-    <title>Hello, world!</title>
+    <title>Name Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .col-12 {
+            transition: .5s;
+        }
+    </style>
 </head>
 
-<body>
-    <h1 class="bg-primary">Hello, world!</h1>
+<body class="d-flex justify-content-center align-items-center bg-dark">
+    <div class="container text-light">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-md-4 col-lg-5 col-xl-5">
+                <img class="img-fluid bg-success" src="./images/book.png">
+            </div>
+            <div class="col-12 col-md-8 col-lg-7 col-xl-7">
+                <div class="row">
+                    <div class="col-12 p-3">
+                        <h3>聖經經文查詢</h3>
+                        <h1 class="font-weight-bolder">拜啵</h1>
+                        <h5>Line機器人 @679zbztn</h5>
+                    </div>
+                    <div class="container-fluid col-12">
+                        <div class="d-none d-lg-block">
+                            <br>
+                            ◎如果您想要搜尋一條經文，可以跟我說：「馬可福音1:20」<br>
+                            ◎或是您想要搜尋一個範圍，可以跟我說：「馬可福音1:1-8」<br>
+                            ◎亦或是您想要搜尋一整章經文，可以跟我說：「馬可福音1」<br>
+                            <br>
+                        </div>
+                        <a href="https://lin.ee/2JOSM8n0V"><img
+                                src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友"
+                                height="36" border="0"></a>
+                        <br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
